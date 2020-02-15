@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, serif;
+}
+
+#ships {
+    position: absolute;
+    left: 5%;
+    top: 125px;
+
+    float: left;
+    width: 150px;
+
+    background: #4ecc4c;
+    padding: 10px;
+    font-size: 14px;
+    color: #dc1116;
+    border: 2px solid #ffff00;
+    border-radius: 5px;
+}
+
+#game {
+    width: 420px;
+    height: 420px;
+    margin: auto;
+    padding: 25px;
+    border: 3px solid #cc381d;
+    border-radius: 13px;
+    background: #6393ff;
+}
+
+#text {
+    width: 350px;
+    margin: 20px auto;
+    background: #4ecc4c;
+    padding: 10px;
+    font-size: 26px;
+    color: #dc1116;
+    text-align: center;
+    border: 2px solid #ffff00;
+    border-radius: 5px;
+}
+
+#textRefresh {
+    margin: 20px auto;
+    background: #cc8020;
+    padding: 10px;
+    font-size: 26px;
+    color: #dc1116;
+    text-align: center;
+    border: 2px solid #ffff00;
+    border-radius: 5px;
+}
+
+.ship {
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid #cc381d;
+    border-radius: 5px;
+}
+
+.pole {
+    padding:5px;
+    background: #4ecc4c;
+    margin: 1px;
+    border: 2px solid #cc381d;
+    width: 40px;
+    height: 40px;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    vertical-align: middle;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.divCont {
+    float: none;
+    height: 42px;
+}
+
